@@ -20,13 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$jos =& "jos";
-		
 		$this->load->view('public/welcome');
 	}
-
-	public function jos()
-	{
-		$this->load->view('public/welcome');
-	}
+	
 }
