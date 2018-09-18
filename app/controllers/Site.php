@@ -11,7 +11,7 @@ class Site extends CI_Controller{
 
   function index()
   {
-    echo "Landing page user";
+    
   }
 
 }
